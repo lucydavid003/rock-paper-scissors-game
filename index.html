@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" href="./img/download.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="game-app">
+      <div class="main-area">
+        <div class="game-header">
+          <p class="copyright-text">
+            &copy;2025
+            <a href="#"
+              >LucyWanjiru</a
+            >
+          </p>
+          <p class="score-board js-score">Computer 0 0 Player</p>
+        </div>
+        <div class="player-box" id="computer-box">
+          <p class="player-box--title">Computer</p>
+
+          <p class="emoji js-computer-choice">✋</p>
+        </div>
+        <p class="win-announcement js-winner-announcement">Currently Draw</p>
+        <div class="player-box" id="player-box">
+          <p class="player-box--title">Player</p>
+          <p class="emoji player-choice-emoji js-player-choice">✋</p>
+        </div>
+      </div>
+      <div class="player-choices">
+        <button
+          class="choice-btn"
+          id="rock-btn"
+          onclick="
+        playGame('Rock')
+        "
+        >
+          <p class="button-emoji">✊</p>
+          <p class="button-text">Rock</p>
+        </button>
+
+        <button
+          class="choice-btn"
+          id="paper-btn"
+          onclick="
+          playGame('Paper');   
+
+        "
+        >
+          <p class="button-emoji">✋</p>
+          <p class="button-text">Paper</p>
+        </button>
+
+        <button
+          class="choice-btn"
+          id="scissors-btn"
+          onclick="playGame('Scissors');"
+        >
+          <p class="button-emoji">✌️</p>
+          <p class="button-text">Scissors</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

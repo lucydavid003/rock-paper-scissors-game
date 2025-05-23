@@ -26,10 +26,9 @@ body {
 }
 
 @media screen and (max-width: 60.63em) {
-    #game-app {
-        width: 100vw;
-    }
-
+  #game-app {
+    width: 100vw;
+  }
 }
 
 .main-area {
@@ -50,11 +49,11 @@ body {
 }
 
 @media screen and (max-width: 27.575em) {
-    .game-header {
-        flex-direction: column;
-        padding: 0.3rem;
-        font-size: 1rem;
-    }
+  .game-header {
+    flex-direction: column;
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
 }
 
 .copyright-text {
@@ -116,15 +115,15 @@ a {
 }
 
 @media (max-width: 23.9em) {
-    .button-emoji {
-        font-size: 2rem;
-    }
+  .button-emoji {
+    font-size: 2rem;
+  }
 
-    .player-choices {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+  .player-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 .button-text {
